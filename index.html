@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Résultats du Réseau</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <h2>Entrer l'ip et le cidr</h2>
+    <form action="" method="POST">
+        <table border="1" id="resultTable">
+            <tbody>
+                <tr>
+                    <td>
+                        <label>Adresse IP :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="ip" required placeholder="Adresse ip" maxlength="15" class="form" id="ip"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>CIDR :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="cidr" required placeholder="Cidr entre 0 et 32" maxlength="2" class="form" id="cidr"><br>
+                    </td>
+                </tr> 
+            </tbody>
+        </table>  
+        <input type="submit" value="Envoyer" class="btn"> <br>         
+    </form>
+</body>
+</html>

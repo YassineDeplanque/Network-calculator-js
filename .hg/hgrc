@@ -1,0 +1,4 @@
+[paths]
+default = http://192.168.72.6/mercurial/reseaujs/
+default-push = http://192.168.72.6/mercurial/reseaujs/
+
